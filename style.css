@@ -102,6 +102,24 @@ font-size: 95px;
 margin-bottom: 12px;
 text-align: left;
 line-height: 1;
+animation:text 3s 1 ease ;
+} 
+
+
+@keyframes text{
+    0%{
+        color: black; 
+        margin-bottom: -30px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin: 0 -35px;
+    }
+
+    85%{
+        letter-spacing: 8px;
+        margin: 0 -20px;
+    }
 }
 
 
