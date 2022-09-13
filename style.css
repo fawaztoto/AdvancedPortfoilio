@@ -102,7 +102,15 @@ font-size: 95px;
 margin-bottom: 12px;
 text-align: left;
 line-height: 1;
-animation:text 3s 1 ease ;
+animation: text 4s 2 ease;
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
+
 } 
 
 
@@ -124,7 +132,14 @@ animation:text 3s 1 ease ;
 
 
 .blue{
-color: blue !important;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
+/* color: blue !important; */
 }
 
 .link__hover-effect{
@@ -186,6 +201,10 @@ nav,
 }
 
 
+
+.dark-theme .social__link{
+    background-color: white ;
+}
 
 
 .dark-theme section {
@@ -251,7 +270,6 @@ min-height: 100vh;
  }
 
 .social__link{
-    background-color: blue;
     color: white;
     padding: 6px; 
     width: 30px;
@@ -262,6 +280,11 @@ min-height: 100vh;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+
+
+
+
 }
 
 .mail__btn{
