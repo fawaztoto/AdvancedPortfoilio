@@ -182,7 +182,11 @@ nav,
 .dark-theme .header__para  
 {
     color: white;
+
 }
+
+
+
 
 .dark-theme section {
  background-color: #242424;
@@ -208,6 +212,7 @@ nav,
 
     filter: invert(1);
 }
+
 
 
 /* 
