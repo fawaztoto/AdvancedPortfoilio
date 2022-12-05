@@ -104,10 +104,11 @@ transform: scale(0.8);
     line-height: 1;
     letter-spacing: 5px;
     cursor: pointer;
-    background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
+    /* background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background-clip: text; */
+    color: #ee3190;
 } 
 
 
@@ -120,11 +121,12 @@ transform: scale(0.8);
     line-height: 1;
     letter-spacing: 5px;
     cursor: pointer;
+    color: #ee3190;
 
-    background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
+    /* background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background-clip: text; */
 }
 
 .title-only{
