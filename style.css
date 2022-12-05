@@ -120,7 +120,7 @@ transform: scale(0.8);
     line-height: 1;
     letter-spacing: 5px;
     cursor: pointer;
-    color: #222;
+
     background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -143,15 +143,15 @@ transform: scale(0.8);
 
 }
 
-.blue{ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+/* .blue{ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-background-clip: text;
+background-clip: text; */
 
 
 
 /* color: blue !important; */
-}
+
 
 .link__hover-effect{
     position: relative;
