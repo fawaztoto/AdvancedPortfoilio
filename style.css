@@ -98,45 +98,36 @@ transform: scale(0.8);
 
 
 .title{
+
     font-size: 120px;
     margin-bottom: 12px;
     /* text-align: left; */
     line-height: 1;
     letter-spacing: 5px;
     cursor: pointer;
-    /* background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
+    background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text; */
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(95,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+   
+    
+    
+}
 
-    -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-  
-} 
+
 
 
 .title2{
 
-    
-    font-size: 90px;
+    font-size: 120px;
     margin-bottom: 12px;
     text-align: left;
     line-height: 1;
     letter-spacing: 5px;
     cursor: pointer;
-   
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(95,9,121,1) 100%, rgba(0,212,255,1) 100%);
-
-    -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #222;
 }
 
-.title-only{
-    display: flex;
-    gap: 1.5em;
-}
 
 /* .titlename{
 
