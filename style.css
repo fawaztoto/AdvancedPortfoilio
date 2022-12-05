@@ -107,32 +107,16 @@ background: linear-gradient(89.97deg, #820eff 1.84%, #ff5900 102.67%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-
-
-
-
 } 
 
 
-@keyframes text{
-    0%{
-        color: black; 
-        margin-bottom: -30px;
-    }
-    30%{
-        letter-spacing: 40px;
-        margin: 0 -35px;
-    }
-
-    85%{
-        letter-spacing: 8px;
-        margin: 0 -20px;
-    }
+.title-only{
+    display: flex;
+    gap: 1.5em;
 }
 
 
-.blue{
-    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+.blue{ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
@@ -288,18 +272,18 @@ min-height: 100vh;
 }
 
 .mail__btn{
-    width: 69px;
-    height: 69px;
-    font-size:32px;
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
     border-radius: 50%;
-    border: none;
+     border: none;
     background-color: #242424;
-    color: white; 
-    position: fixed;
+    color: #fff;
     bottom: 32px;
-    right: 39px;
+    right: 48px;
     z-index: 100;
-    box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.2);
+    position: fixed;
+    box-shadow: 0 12px 30px 0 rgb(0 , 0 , 0,0.5);
 }
 
 .scroll {
@@ -498,8 +482,8 @@ transform: scale(1);
 }
 
 .form__submit {
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: rgb(212, 0, 255);
+    border: 2px solid rgb(212, 0, 255);;
     color: white;
     font-weight: bold;
     width: 100%;
