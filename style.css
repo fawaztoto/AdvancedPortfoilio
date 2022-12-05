@@ -98,20 +98,34 @@ transform: scale(0.8);
 
 
 .title{
-font-size: 95px;
-margin-bottom: 12px;
-text-align: left;
-line-height: 1;
-animation: text 4s 2 ease;
-background: linear-gradient(89.97deg, #820eff 1.84%, #ff5900 102.67%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-cursor: pointer;
+    font-size: 120px;
+    margin-bottom: 12px;
+    /* text-align: left; */
+    line-height: 1;
+    letter-spacing: 5px;
+    cursor: pointer;
+    background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 } 
 
 
+.title2{
 
+    
+    font-size: 90px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1;
+    letter-spacing: 5px;
+    cursor: pointer;
+    color: #222;
+    background: linear-gradient(89.97deg, #ee3190 1.84%, #274f69 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 
 .title-only{
     display: flex;
