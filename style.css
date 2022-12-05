@@ -107,7 +107,10 @@ background: linear-gradient(89.97deg, #820eff 1.84%, #ff5900 102.67%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+cursor: pointer;
 } 
+
+
 
 
 .title-only{
@@ -115,6 +118,16 @@ background-clip: text;
     gap: 1.5em;
 }
 
+.titlename{
+
+    transition:all 300ms ease ;
+}
+
+.titlename:hover{
+
+    transform: translateX(30px);
+
+}
 
 .blue{ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 -webkit-background-clip: text;
