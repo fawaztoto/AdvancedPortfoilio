@@ -37,7 +37,7 @@ function contact(event) {
         'service_wwa73ni',
        'template_hzc28s5',
          event.target,
-         'Am3cjy2XwEFPYCqfI'
+         'WaRhDEHLg_njQcIa8'
    ).then(() => {
     loading.classList.remove("modal__overlay--visible");
     success.classList += " modal__overlay--visible";
