@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -103,10 +104,12 @@ margin-bottom: 12px;
 text-align: left;
 line-height: 1;
 animation: text 4s 2 ease;
-background: linear-gradient(89.97deg, #820eff 1.84%, #ff5900 102.67%);
+background: rgb(0,16,36);
+background:linear-gradient(90deg, rgb(1, 43, 95) 0%, rgba(0,212,255,1) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+font-family: 'Russo One', sans-serif !important;
 } 
 
 
@@ -119,7 +122,8 @@ background-clip: text;
 
 
 
-.blue{ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+.blue{background: rgb(0,16,36);
+    background:linear-gradient(90deg, rgb(1, 43, 95) 0%, rgba(0,212,255,1) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
@@ -267,7 +271,8 @@ min-height: 100vh;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background: rgb(0,16,36);
+    background: linear-gradient(90deg, rgb(1, 43, 95) 0%, rgba(0,212,255,1) 100%);
 
 
 
@@ -485,8 +490,9 @@ transform: scale(1);
 }
 
 .form__submit {
-    background-color: rgb(212, 0, 255);
-    border: 2px solid  rgb(212, 0, 255);
+    background-color: rgb(0,16,36);
+    background: linear-gradient(90deg, rgb(1, 43, 95) 0%, rgba(0,212,255,1) 100%);
+    border: 2px solid  rgb(0,16,36);
     color: white;
     font-weight: bold;
     width: 100%;
