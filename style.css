@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -105,7 +105,8 @@ text-align: left;
 line-height: 1;
 animation: text 4s 2 ease;
 background: rgb(0,16,36);
-background:linear-gradient(90deg, rgb(1, 43, 95) 0%, rgba(0,212,255,1) 100%);
+background: rgb(226,186,86);
+background: linear-gradient(90deg, rgba(226,186,86,1) 0%, rgba(241,109,0,1) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
@@ -118,20 +119,14 @@ font-family: 'Russo One', sans-serif !important;
     gap: 1.5em;
 }
 
-
-
-
-
-.blue{background: rgb(0,16,36);
-    background:linear-gradient(90deg, rgb(1, 43, 95) 0%, rgba(0,212,255,1) 100%);
+.blue{background: rgb(226,186,86);
+    background: linear-gradient(90deg, rgba(226,186,86,1) 0%, rgba(241,109,0,1) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-
-
+}
 
 /* color: blue !important; */
-}
 
 .link__hover-effect{
     position: relative;
@@ -271,8 +266,8 @@ min-height: 100vh;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: rgb(0,16,36);
-    background: linear-gradient(90deg, rgb(1, 43, 95) 0%, rgba(0,212,255,1) 100%);
+    background: rgb(226,186,86);
+    background: linear-gradient(90deg, rgb(235, 179, 38) 0%, rgba(241,109,0,1) 100%);
 
 
 
@@ -491,7 +486,8 @@ transform: scale(1);
 
 .form__submit {
     background-color: rgb(0,16,36);
-    background: linear-gradient(90deg, rgb(1, 43, 95) 0%, rgba(0,212,255,1) 100%);
+    background: rgb(226,186,86);
+    background: linear-gradient(90deg, rgba(226,186,86,1) 0%, rgba(241,109,0,1) 100%);
     border: 2px solid  rgb(0,16,36);
     color: white;
     font-weight: bold;
